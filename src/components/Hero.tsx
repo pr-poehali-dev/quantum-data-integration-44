@@ -19,7 +19,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/files/d77dff49-c5f4-47ce-ae24-a7bed0db6768.jpg"
+          src="https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/1dcd3a07-633c-445a-b086-2586ee4ee89c.jpg"
           alt="Деревянный дом из оцилиндрованного бревна"
           className="w-full h-full object-cover"
         />
