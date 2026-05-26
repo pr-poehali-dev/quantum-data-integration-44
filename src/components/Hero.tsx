@@ -19,19 +19,23 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/files/d77dff49-c5f4-47ce-ae24-a7bed0db6768.jpg"
+          alt="Деревянный дом из оцилиндрованного бревна"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/30" />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 drop-shadow-lg">
+          СТРОИМ ДОМ
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90 drop-shadow">
+          Дома, бани и беседки из оцилиндрованного бревна и профилированного бруса — тепло, надёжность и красота на десятилетия
         </p>
+        <button className="mt-8 bg-white text-black px-8 py-3 text-sm uppercase tracking-widest font-semibold hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
+          Получить расчёт
+        </button>
       </div>
     </div>
   );
