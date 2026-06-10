@@ -11,6 +11,18 @@ const projects = [
   },
 
   {
+    id: 20,
+    category: "Дома",
+    title: "Дом из профилированного бруса в процессе строительства",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/91c71b91-2cd0-48e1-a2d0-099ed13a670a.jpg",
+  },
+  {
+    id: 21,
+    category: "Дома",
+    title: "Двухэтажный дом из бруса зимой",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/6acf3cb2-8327-40f1-89ae-2d448017e909.jpg",
+  },
+  {
     id: 3,
     category: "Дома",
     title: "Бревенчатый дом крупный план",
