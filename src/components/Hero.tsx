@@ -34,11 +34,14 @@ export default function Hero() {
           Дома, бани и беседки из оцилиндрованного бревна и профилированного бруса — тепло, надёжность и красота на десятилетия
         </p>
         <div className="flex flex-wrap justify-center gap-2 max-w-2xl mx-auto mb-8">
-          {["Кровельные работы", "Заборы", "Септик", "Отопление", "Сантехника", "Проект дома в подарок", "Работаем по договору", "Гарантия"].map((item) => (
+          {["Кровельные работы", "Заборы", "Септик", "Отопление", "Сантехника", "Работаем по договору", "Гарантия"].map((item) => (
             <span key={item} className="bg-white/20 border border-white/40 backdrop-blur-sm text-white text-xs md:text-sm px-3 py-1.5 rounded-full drop-shadow">
               {item}
             </span>
           ))}
+          <span className="bg-amber-400 border border-amber-300 text-black font-semibold text-xs md:text-sm px-3 py-1.5 rounded-full drop-shadow">
+            🎁 Проект дома в подарок
+          </span>
         </div>
         <button className="bg-white text-black px-8 py-3 text-sm uppercase tracking-widest font-semibold hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
           Получить расчёт
