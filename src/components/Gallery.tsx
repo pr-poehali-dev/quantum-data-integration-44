@@ -5,8 +5,8 @@ const categories = ["Все", "Дома", "Заборы", "Кровля", "Ба�
 const projects = [
   {
     id: 1,
-    category: "Дома",
-    title: "Дом из оцилиндрованного бревна",
+    category: "Бани",
+    title: "Баня из оцилиндрованного бревна",
     img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/1dcd3a07-633c-445a-b086-2586ee4ee89c.jpg",
   },
   {
