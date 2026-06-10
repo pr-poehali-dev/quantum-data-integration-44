@@ -59,24 +59,30 @@ const projects = [
   },
   {
     id: 10,
+    category: "Заборы",
+    title: "Забор жалюзи тёмно-коричневый",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/e9316d12-a48e-4295-a765-cf4e813eb465.jpg",
+  },
+  {
+    id: 11,
     category: "Кровля",
     title: "Кровля из металлочерепицы антрацит",
     img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/4d963b57-43b7-4f9e-869b-bcf94a6e0ffc.jpg",
   },
   {
-    id: 11,
+    id: 12,
     category: "Кровля",
     title: "Кровля из профнастила голубая",
     img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/7340f81a-a9e4-47af-b23f-1517a072d772.jpg",
   },
   {
-    id: 12,
+    id: 13,
     category: "Кровля",
     title: "Кровля из металлочерепицы зелёная",
     img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/6fd54e78-df84-49a9-ae06-155b6402e67c.jpg",
   },
   {
-    id: 13,
+    id: 14,
     category: "Кровля",
     title: "Кровля из металлочерепицы бордо",
     img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/a6279052-3a47-48c7-9d4c-d40d5f12c30d.jpg",
