@@ -107,6 +107,12 @@ const projects = [
     img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/0ddf44ee-a4d5-4ab0-b1ca-c6d52aa2d0bb.jpg",
   },
   {
+    id: 23,
+    category: "Беседки",
+    title: "Открытая веранда из бруса",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/877f100e-e86f-462d-8adb-d1026ffab7e8.jpg",
+  },
+  {
     id: 11,
     category: "Кровля",
     title: "Кровля из металлочерепицы антрацит",
