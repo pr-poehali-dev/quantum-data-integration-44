@@ -23,6 +23,12 @@ const projects = [
     img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/6acf3cb2-8327-40f1-89ae-2d448017e909.jpg",
   },
   {
+    id: 22,
+    category: "Дома",
+    title: "Большой двухэтажный дом из бруса с кровлей",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/e97cfc47-b4e9-4e17-adb4-887f557dc383.jpg",
+  },
+  {
     id: 3,
     category: "Дома",
     title: "Бревенчатый дом крупный план",
