@@ -43,7 +43,7 @@ export default function Hero() {
             🎁 Проект дома в подарок
           </span>
         </div>
-        <button className="bg-white text-black px-8 py-3 text-sm uppercase tracking-widest font-semibold hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
+        <button className="bg-amber-400 text-black px-8 py-3 text-sm uppercase tracking-widest font-semibold hover:bg-amber-300 transition-colors duration-300 cursor-pointer">
           Получить расчёт
         </button>
       </div>
