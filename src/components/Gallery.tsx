@@ -9,12 +9,7 @@ const projects = [
     title: "Баня из оцилиндрованного бревна",
     img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/1dcd3a07-633c-445a-b086-2586ee4ee89c.jpg",
   },
-  {
-    id: 2,
-    category: "Дома",
-    title: "Двухэтажный дом из бревна",
-    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/63358b9f-7430-4fc9-94ec-59c351825aa9.jpg",
-  },
+
   {
     id: 3,
     category: "Дома",
