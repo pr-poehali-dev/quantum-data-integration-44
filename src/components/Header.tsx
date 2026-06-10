@@ -11,20 +11,28 @@ export default function Header({ className }: HeaderProps) {
           alt="СК Древград"
           className="h-12 w-auto object-contain"
         />
-        <nav className="flex gap-8">
+        <div className="flex items-center gap-8">
           <a
-            href="#about"
-            className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
+            href="tel:+79022565474"
+            className="text-white hover:text-amber-400 transition-colors duration-300 font-semibold text-sm md:text-base"
           >
-            О нас
+            +7 (902) 256-54-74
           </a>
-          <a
-            href="#contact"
-            className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
-          >
-            Контакты
-          </a>
-        </nav>
+          <nav className="hidden md:flex gap-8">
+            <a
+              href="#about"
+              className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
+            >
+              О нас
+            </a>
+            <a
+              href="#contact"
+              className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
+            >
+              Контакты
+            </a>
+          </nav>
+        </div>
       </div>
     </header>
   );
