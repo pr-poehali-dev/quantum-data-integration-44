@@ -27,12 +27,21 @@ export default function Promo() {
       </div>
 
       <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Беседки и веранды
+        Полный комплекс работ
       </h3>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Создаём уютные беседки и открытые веранды из натурального дерева — идеальное место для отдыха в любое время года.
-      </p>
+      <div className="absolute bottom-12 right-6 z-10 max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl">
+        <p className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-6">
+          Строим под ключ — от фундамента до финишной отделки.
+        </p>
+        <div className="flex flex-wrap gap-2 justify-end">
+          {["Отопление", "Заборы", "Кровельные работы", "Сантехника", "Септик"].map((item) => (
+            <span key={item} className="bg-white/20 border border-white/40 backdrop-blur-sm text-white text-xs md:text-sm px-3 py-1.5 rounded-full">
+              {item}
+            </span>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
