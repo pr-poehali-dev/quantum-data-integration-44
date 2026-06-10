@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const categories = ["Все", "Дома", "Заборы", "Бани", "Беседки"];
+const categories = ["Все", "Дома", "Заборы", "Кровля", "Бани", "Беседки"];
 
 const projects = [
   {
@@ -56,6 +56,30 @@ const projects = [
     category: "Заборы",
     title: "Деревянный штакетник с беседкой",
     img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/a4e12ba9-9e53-494e-b59f-e42a8bc018b7.jpg",
+  },
+  {
+    id: 10,
+    category: "Кровля",
+    title: "Кровля из металлочерепицы антрацит",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/4d963b57-43b7-4f9e-869b-bcf94a6e0ffc.jpg",
+  },
+  {
+    id: 11,
+    category: "Кровля",
+    title: "Кровля из профнастила голубая",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/7340f81a-a9e4-47af-b23f-1517a072d772.jpg",
+  },
+  {
+    id: 12,
+    category: "Кровля",
+    title: "Кровля из металлочерепицы зелёная",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/6fd54e78-df84-49a9-ae06-155b6402e67c.jpg",
+  },
+  {
+    id: 13,
+    category: "Кровля",
+    title: "Кровля из металлочерепицы бордо",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/a6279052-3a47-48c7-9d4c-d40d5f12c30d.jpg",
   },
 ];
 
