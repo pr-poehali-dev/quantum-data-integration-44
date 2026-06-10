@@ -57,7 +57,15 @@ export default function Footer() {
                 alt="СК Древград"
                 className="mt-4 sm:mt-6 lg:mt-10 h-24 sm:h-32 lg:h-40 w-auto object-contain"
               />
-              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} СК Древград</p>
+              <div className="flex flex-col items-start sm:items-end gap-3">
+                <a
+                  href="tel:+79022565474"
+                  className="bg-amber-400 hover:bg-amber-300 transition-colors duration-300 text-black font-semibold px-6 py-3 text-sm uppercase tracking-widest"
+                >
+                  Позвонить
+                </a>
+                <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} СК Древград</p>
+              </div>
             </div>
           </div>
         </div>
