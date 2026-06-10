@@ -51,6 +51,12 @@ const projects = [
     title: "Забор под дерево с кирпичными столбами",
     img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/272fdc27-c865-4b02-bc0d-8e06ec608272.jpg",
   },
+  {
+    id: 9,
+    category: "Заборы",
+    title: "Деревянный штакетник с беседкой",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/a4e12ba9-9e53-494e-b59f-e42a8bc018b7.jpg",
+  },
 ];
 
 export default function Gallery() {
