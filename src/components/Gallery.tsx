@@ -64,6 +64,36 @@ const projects = [
     img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/e9316d12-a48e-4295-a765-cf4e813eb465.jpg",
   },
   {
+    id: 15,
+    category: "Бани",
+    title: "Баня из бревна — вход",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/ff5e65c2-573d-4034-a509-96a8e5233747.jpg",
+  },
+  {
+    id: 16,
+    category: "Бани",
+    title: "Парная с полком и стеклянной дверью",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/93339073-3200-4400-a57f-a787069e6c22.jpg",
+  },
+  {
+    id: 17,
+    category: "Бани",
+    title: "Комната отдыха в бане",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/800620fd-6ba9-43a3-88f4-412e960fe3ea.jpg",
+  },
+  {
+    id: 18,
+    category: "Бани",
+    title: "Парная с полком и печкой",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/3c742c43-8b02-4114-ab74-156053372cab.jpg",
+  },
+  {
+    id: 19,
+    category: "Бани",
+    title: "Баня из оцилиндрованного бревна снаружи",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/0ddf44ee-a4d5-4ab0-b1ca-c6d52aa2d0bb.jpg",
+  },
+  {
     id: 11,
     category: "Кровля",
     title: "Кровля из металлочерепицы антрацит",
