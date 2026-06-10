@@ -26,14 +26,21 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black/30" />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
+      <div className="relative z-10 text-center text-white px-6">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 drop-shadow-lg">
           СТРОИМ ДОМ
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90 drop-shadow">
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 drop-shadow mb-6">
           Дома, бани и беседки из оцилиндрованного бревна и профилированного бруса — тепло, надёжность и красота на десятилетия
         </p>
-        <button className="mt-8 bg-white text-black px-8 py-3 text-sm uppercase tracking-widest font-semibold hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
+        <div className="flex flex-wrap justify-center gap-2 max-w-2xl mx-auto mb-8">
+          {["Кровельные работы", "Заборы", "Септик", "Отопление", "Сантехника", "Проект дома в подарок", "Работаем по договору", "Гарантия"].map((item) => (
+            <span key={item} className="bg-white/20 border border-white/40 backdrop-blur-sm text-white text-xs md:text-sm px-3 py-1.5 rounded-full drop-shadow">
+              {item}
+            </span>
+          ))}
+        </div>
+        <button className="bg-white text-black px-8 py-3 text-sm uppercase tracking-widest font-semibold hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
           Получить расчёт
         </button>
       </div>
