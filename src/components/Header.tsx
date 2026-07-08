@@ -11,7 +11,13 @@ export default function Header({ className }: HeaderProps) {
           alt="СК Древград"
           className="h-12 w-auto object-contain"
         />
-        <div className="flex items-center gap-8">
+        <div className="flex items-center gap-4 md:gap-8">
+          <a
+            href="mailto:drevgrad.dom2026@gmail.com"
+            className="hidden sm:inline text-white hover:text-amber-400 transition-colors duration-300 font-semibold text-sm md:text-base"
+          >
+            drevgrad.dom2026@gmail.com
+          </a>
           <a
             href="tel:+79022565474"
             className="text-white hover:text-amber-400 transition-colors duration-300 font-semibold text-sm md:text-base"

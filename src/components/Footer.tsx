@@ -64,6 +64,12 @@ export default function Footer() {
                 >
                   Позвонить
                 </a>
+                <a
+                  href="mailto:drevgrad.dom2026@gmail.com"
+                  className="text-white hover:text-amber-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  drevgrad.dom2026@gmail.com
+                </a>
                 <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} СК Древград</p>
               </div>
             </div>
