@@ -18,12 +18,9 @@ export default function Header({ className }: HeaderProps) {
           >
             drevgrad.dom2026@gmail.com
           </a>
-          <a
-            href="tel:+79022565474"
-            className="text-white hover:text-amber-400 transition-colors duration-300 font-semibold text-sm md:text-base"
-          >
-            +7 (902) 256-54-74
-          </a>
+          <span className="text-white font-semibold text-sm md:text-base uppercase tracking-wide">
+            СК ДРЕВГРАД НТ
+          </span>
           <nav className="hidden md:flex gap-8">
             <a
               href="#about"
