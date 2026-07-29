@@ -70,7 +70,7 @@ export default function Footer() {
                 >
                   drevgrad.dom2026@gmail.com
                 </a>
-                <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} СК Древград</p>
+                <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} СК Древград НТ</p>
               </div>
             </div>
           </div>
