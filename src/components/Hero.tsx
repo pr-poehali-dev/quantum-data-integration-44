@@ -46,12 +46,6 @@ export default function Hero() {
         <button className="bg-amber-400 text-black px-8 py-3 text-sm uppercase tracking-widest font-semibold hover:bg-amber-300 transition-colors duration-300 cursor-pointer">
           Получить расчёт
         </button>
-        <a href="tel:+79022565474" className="block mt-4 text-white text-xl md:text-2xl font-semibold drop-shadow hover:text-amber-400 transition-colors duration-300">
-          +7 (902) 256-54-74
-        </a>
-        <a href="mailto:drevgrad.dom2026@gmail.com" className="block mt-2 text-white text-base md:text-lg drop-shadow hover:text-amber-400 transition-colors duration-300">
-          drevgrad.dom2026@gmail.com
-        </a>
       </div>
     </div>
   );
