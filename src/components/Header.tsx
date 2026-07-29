@@ -1,3 +1,9 @@
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+
 interface HeaderProps {
   className?: string;
 }
@@ -12,20 +18,6 @@ export default function Header({ className }: HeaderProps) {
           className="h-12 w-auto object-contain"
         />
         <div className="flex items-center gap-4 md:gap-8">
-          <div className="hidden sm:flex flex-col items-end leading-tight">
-            <a
-              href="tel:+79022565474"
-              className="text-white hover:text-amber-400 transition-colors duration-300 font-semibold text-sm md:text-base"
-            >
-              +7 (902) 256-54-74
-            </a>
-            <a
-              href="mailto:drevgrad.dom2026@gmail.com"
-              className="text-white hover:text-amber-400 transition-colors duration-300 text-xs md:text-sm"
-            >
-              drevgrad.dom2026@gmail.com
-            </a>
-          </div>
           <nav className="hidden md:flex gap-8">
             <a
               href="#about"
@@ -33,12 +25,25 @@ export default function Header({ className }: HeaderProps) {
             >
               О нас
             </a>
-            <a
-              href="#contact"
-              className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
-            >
-              Контакты
-            </a>
+            <Popover>
+              <PopoverTrigger className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm cursor-pointer">
+                Контакты
+              </PopoverTrigger>
+              <PopoverContent align="end" className="w-auto flex flex-col gap-2">
+                <a
+                  href="tel:+79022565474"
+                  className="text-neutral-900 hover:text-amber-500 transition-colors duration-300 font-semibold text-sm md:text-base"
+                >
+                  +7 (902) 256-54-74
+                </a>
+                <a
+                  href="mailto:drevgrad.dom2026@gmail.com"
+                  className="text-neutral-900 hover:text-amber-500 transition-colors duration-300 text-xs md:text-sm"
+                >
+                  drevgrad.dom2026@gmail.com
+                </a>
+              </PopoverContent>
+            </Popover>
           </nav>
         </div>
       </div>
