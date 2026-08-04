@@ -32,7 +32,7 @@ export default function Promo() {
 
       <div className="absolute bottom-12 right-6 z-10 max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl">
         <p className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-6">
-          Строим под ключ — от фундамента до сдачи объекта.
+          Строим от фундамента до кровли.
         </p>
         <div className="flex flex-wrap gap-2 justify-end">
           {["Отопление", "Заборы", "Кровельные работы", "Сантехника", "Септик"].map((item) => (
