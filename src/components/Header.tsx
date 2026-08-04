@@ -42,6 +42,9 @@ export default function Header({ className }: HeaderProps) {
                 >
                   drevgrad.dom2026@gmail.com
                 </a>
+                <span className="text-neutral-900 text-xs md:text-sm">
+                  г. Нижний Тагил, ул. Алтайская, 222
+                </span>
               </PopoverContent>
             </Popover>
           </nav>
