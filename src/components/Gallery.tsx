@@ -149,6 +149,24 @@ const projects = [
     img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/4d963b57-43b7-4f9e-869b-bcf94a6e0ffc.jpg",
   },
   {
+    id: 29,
+    category: "Кровля",
+    title: "Вальмовая кровля из металлочерепицы на доме",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/0c78201e-2814-4718-a067-ee2528a4868a.jpg",
+  },
+  {
+    id: 30,
+    category: "Кровля",
+    title: "Монтаж стропильной системы вальмовой крыши",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/2d388389-4260-46f1-8720-f849e8d6fa10.jpg",
+  },
+  {
+    id: 31,
+    category: "Кровля",
+    title: "Готовая кровля из металлочерепицы серая",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/98dc4145-b4bb-491c-8f4c-60627ce6f8a4.jpg",
+  },
+  {
     id: 12,
     category: "Кровля",
     title: "Кровля из профнастила голубая",
