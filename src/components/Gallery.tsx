@@ -35,6 +35,36 @@ const projects = [
     img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/d59a50f4-db81-466a-a3c8-fca34561b848.jpg",
   },
   {
+    id: 24,
+    category: "Дома",
+    title: "Сборка дома из профилированного бруса на винтовых сваях",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/8ee9810d-5e27-4e7d-ad7d-8fdf22454285.jpg",
+  },
+  {
+    id: 25,
+    category: "Дома",
+    title: "Строительство дома из бруса — монтаж стен",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/1696494a-0e6e-4242-9254-291518a89096.jpg",
+  },
+  {
+    id: 26,
+    category: "Дома",
+    title: "Дом из бруса — сборка второго этажа",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/65605839-39ec-4049-a318-c87574e74801.jpg",
+  },
+  {
+    id: 27,
+    category: "Дома",
+    title: "Готовый дом из бруса с кровлей зимой",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/63108a56-ecf1-47a8-b37b-dd4627713376.jpg",
+  },
+  {
+    id: 28,
+    category: "Дома",
+    title: "Небольшой дом из бруса с окнами",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/a322d610-7ff2-41bb-ac10-6f6e835ea3a3.jpg",
+  },
+  {
     id: 4,
     category: "Заборы",
     title: "Забор из профнастила зелёный",
