@@ -9,6 +9,30 @@ const projects = [
     title: "Баня из оцилиндрованного бревна",
     img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/1dcd3a07-633c-445a-b086-2586ee4ee89c.jpg",
   },
+  {
+    id: 32,
+    category: "Бани",
+    title: "Баня с крытой террасой из оцилиндрованного бревна",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/1354dc8b-9998-4e13-bd61-1a51722a9d8d.jpg",
+  },
+  {
+    id: 33,
+    category: "Бани",
+    title: "Баня из оцилиндрованного бревна в лесу",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/937f86b0-c23c-4b77-85ae-667b6e035cfe.jpg",
+  },
+  {
+    id: 34,
+    category: "Бани",
+    title: "Двухэтажная баня из бруса с балконом зимой",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/865aec5f-abb4-49e3-beb1-e2b6c49e13aa.jpg",
+  },
+  {
+    id: 35,
+    category: "Бани",
+    title: "Баня из оцилиндрованного бревна с террасой",
+    img: "https://cdn.poehali.dev/projects/a5e44b91-db49-438c-8df7-7ab3360c7a8c/bucket/83d6530f-3914-455e-becd-7966c317ced8.jpg",
+  },
 
   {
     id: 20,
